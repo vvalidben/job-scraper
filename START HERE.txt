@@ -1,0 +1,42 @@
+JOBSPY STUDIO
+
+Double-click the "Open JobSpy" Windows shortcut to open the desktop app.
+
+The Studio design includes animated job cards, smooth hover states,
+number counters and search progress. Use the Motion switch in the top
+bar to turn animation off. The job detail panel and sidebar can scroll
+when the window is small.
+
+1. Enter a keyword: cybersecurity, cybersécurité, SOC, or sécurité informatique.
+2. Choose Rabat and/or Casablanca, job boards, and posting age.
+3. Click Search opportunities. Results appear as readable cards.
+4. Click a card, then Open original posting to read more and apply.
+5. Use Export CSV to save the visible results for Excel.
+
+Open CSV imports files into your persistent local workspace. This folder's
+CSV files are imported on first use. Your original files are preserved.
+
+Internships / stages only is enabled by default. A listing must have an
+internship label in its title, job type, or experience level to appear.
+LinkedIn ignores JobSpy's job-type option, so the app adds stage/internship
+keywords to LinkedIn searches and checks the resulting labels locally.
+Include unverified matches shows other listings for manual review.
+These labels are clues, not a guarantee: check the original posting.
+
+Searches need an internet connection. A blocked board is shown under Search
+details. Stop waits for the current request to finish. No application is
+submitted automatically.
+
+NEW WORKSPACE TOOLS
+- Advanced filters: work mode, experience, salary, excluded words/companies.
+- Track / notes: application dates, recruiters, interviews and follow-ups.
+- Check posting: availability, last check and source deadline extraction.
+- Backup & restore: full workspace copies and automatic daily snapshots.
+- Background & notifications: enable scheduled searches with the window closed.
+  Your computer must be awake, online and signed in. Checks run every 5 minutes.
+  Save a search with an interval first. Disable background mode to remove its task.
+
+See README.md for setup, details, limitations and verification commands.
+
+If Windows cannot open the launcher, run this in PowerShell:
+& "C:\job scraper\.venv\Scripts\pythonw.exe" "C:\job scraper\jobspy_desktop.py"
